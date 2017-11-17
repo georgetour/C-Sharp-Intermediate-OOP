@@ -111,12 +111,21 @@ person.Introduce();
 //Console is a class and WriteLine is a static method
 Console.WriteLine();
 
-Why use static members?
+--Why use static members?
 
 To represent concepts that are unique like datetime
 
 DateTime.Now
 Console.WriteLine()
+
+---Delcaring static members
+
+public class Person
+{
+
+	public static int PeopleCount = 0;
+
+}
 
 
 
