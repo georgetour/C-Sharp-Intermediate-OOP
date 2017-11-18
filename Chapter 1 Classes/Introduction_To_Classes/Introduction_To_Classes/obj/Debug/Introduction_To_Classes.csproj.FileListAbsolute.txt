@@ -1,0 +1,7 @@
+C:\Users\Giant\Desktop\Introduction_To_Classes\Introduction_To_Classes\bin\Debug\Introduction_To_Classes.exe.config
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\bin\Debug\Introduction_To_Classes.exe.config
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\bin\Debug\Introduction_To_Classes.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\bin\Debug\Introduction_To_Classes.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\obj\Debug\Introduction_To_Classes.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\obj\Debug\Introduction_To_Classes.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Intermediate-OOP\Chapter 1 Classes\Introduction_To_Classes\Introduction_To_Classes\obj\Debug\Introduction_To_Classes.pdb
