@@ -8,4 +8,8 @@ Divided in Chapters and sub files according to advancement you should proceed
 ## Chapter 1 Classes
 
 1. Introduction_To_Classes
+2. Constructors
+3. Object_Initializers
+4. Methods
+5. Fields
 

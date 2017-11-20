@@ -60,6 +60,7 @@ var customer = new Customer("John");
 - A signature is something unique that identifies the method like return type, it's name and the types and numbers of paramaters.
 - We cannot have two constructors with the same signature.
 - The reason we need overloading is that sometimes we might need the method but we only know some parameters or we might don't want to return something.
+- Also to see how overloads appear check overloads.jpg and to see all overloads of method Ctrl+Shift+Space
 
 
 
@@ -75,5 +76,44 @@ public class Customer
 
 
 }
+
+6. An easy way to create a constructor is to type ctor for code snippet
+
+7. Default constructor
+
+- This is a constructor from C# compliler that gives to fields default values as shown in default_values.jpg
+
+8. This()
+
+- This() is used to initialize the constructor at a method of the class without repeating yourself
+- It's not used in general since we have bad control overflow
+
+-- Example
+
+public class Customer
+    {
+        
+        public int Id;
+        public string Name;
+
+        
+        public List<Order> Orders;
+
+
+        public Customer()
+        {
+            //Empty list created at instantiation with contructor
+            Orders = new List<Order>();
+        }
+
+        public Customer(int id)
+			//This will initialize the Customer constructor without arguments
+            :this()
+        {
+
+            this.Id = id;
+
+        }
+	}
 
 

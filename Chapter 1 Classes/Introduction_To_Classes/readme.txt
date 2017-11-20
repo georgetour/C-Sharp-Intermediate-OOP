@@ -127,6 +127,10 @@ public class Person
 
 }
 
+9. Create class in Visual Studio
+
+- Solution Explorer right click in your name's app then Add New Item or Add Class
+
 
 
 
