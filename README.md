@@ -12,4 +12,7 @@ Divided in Chapters and sub files according to advancement you should proceed
 3. Object_Initializers
 4. Methods
 5. Fields
+6. Access Modifiers
+7. Properties
+8. Indexers
 
