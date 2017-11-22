@@ -22,7 +22,7 @@ public class Person
 2. Auto-implemented Properties
 
 - Example
-public class Person
+public class Person 
     {
 
         private DateTime _birthdate;
