@@ -15,4 +15,5 @@ Divided in Chapters and sub files according to advancement you should proceed
 6. Access Modifiers
 7. Properties
 8. Indexers
+9. Exercises
 
