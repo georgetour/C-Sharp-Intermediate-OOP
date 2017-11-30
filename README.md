@@ -16,4 +16,8 @@ Divided in Chapters and sub files according to advancement you should proceed
 7. Properties
 8. Indexers
 9. Exercises
+10. Class Coupling
+11. Inheritance
+12. Composition
+
 

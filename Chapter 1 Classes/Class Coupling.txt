@@ -1,0 +1,35 @@
+1. Class Coupling
+By Class Coupling we meen how classes are connected each other and their subsystems. In an application they are packaged in namespaces and assemblies.
+
+Example
+
+Class K 
+
+Class A
+Class B has relation with Class A
+
+Class C has relation with Class B
+
+Class D and E have relation with Class C
+
+So if we make a change to Class A it will affect Class B and Class C which are depended in it but also D and E.
+
+2. Tightly Coupling
+In the above example we have tighly coupling which means classes are tightly related and depend each other a lot.
+This happens when a class has many responsibilities and tries to pass them in other classes.
+
+3. Loosely Coupling
+Losely coupling has many advanctages over tightly coupling but the major difference is that when you change something in top class doesn't break all
+classes realted to it. The change is isolated and doesn;t affect other parts of the application.
+
+How you achieve that?
+
+- Encapsulation
+- Relationships between classes
+- Interfaces
+
+4. Relationships
+- Inheritance
+- Composition(result in less coupling)
+
+
