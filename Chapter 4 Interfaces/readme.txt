@@ -38,3 +38,17 @@ With extensibility instead of using the code in the existing class you
 create new class that don't affect the previous one and change the behavior of the system.
 That is a little hard to implement it and the cost is too much that is not worth it.
 Well that's where interfaces come in.
+
+6. Interfaces are NOT for MULTIPLE inheritance
+Interfaces have nothing to do with inheritance. With inheritance derived class takes everything from parent class.
+With interfaces we tell the class what to do methods properties etc like a contract that have rules you should follow.
+It's wrong saying a class inherits from an interface. A class implements an interface.
+
+7. Interfaces and Polymorphism
+Project Interfaces_and_Polymorphism
+In our project our VideoEncoder should not know or care about MailService.
+It shouldn't know how and what kind of notification the user will get(maybe in the future we send a text message also).
+That's where interface comes in. An interface is a role, a label a contract.
+We created an interface INotificationChannel which tells what notification channel wil be used(example mail or text or both).
+With interfaces we have a polymorphic behaviour.
+
