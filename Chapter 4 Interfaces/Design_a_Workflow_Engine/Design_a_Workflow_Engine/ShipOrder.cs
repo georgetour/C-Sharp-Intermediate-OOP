@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_a_Workflow_Engine
 {
-    public class ShipOrder : ICustomerActions
+    public class ShipOrder : ITask
     {
 
         private Order _order = new Order();
@@ -14,7 +14,6 @@ namespace Design_a_Workflow_Engine
         public void Execute(Customer customer)
         {
             Console.WriteLine("Shipping products to " + customer.Address);
-            var product = new Product(12, "bee", 200);
             _order.TotalProducts();
 
         }

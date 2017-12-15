@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_a_Workflow_Engine
 {
-    public interface ICustomerActions
+    public interface ITask
     {
         void Execute(Customer customer);
     }

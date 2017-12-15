@@ -10,7 +10,6 @@ namespace Design_a_Stack
     {
         private List<object> stack = new List<object>();
         
-       
         
 
         public void Push(object obj)

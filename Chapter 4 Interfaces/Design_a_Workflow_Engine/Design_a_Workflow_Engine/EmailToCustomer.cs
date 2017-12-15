@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_a_Workflow_Engine
 {
-    public class EmailToCustomer : ICustomerActions, IOrderConfirmationSend
+    public class EmailToCustomer : ITask, IOrderConfirmationSend
     {
         public void Execute(Customer customer)
         {

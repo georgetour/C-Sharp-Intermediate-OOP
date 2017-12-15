@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_a_Workflow_Engine
 {
-    public class Order : ICustomerActions
+    public class Order : ITask
     {
         public List<Product> ProductList;
 

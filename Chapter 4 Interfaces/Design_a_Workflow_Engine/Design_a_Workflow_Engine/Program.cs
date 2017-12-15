@@ -11,14 +11,13 @@ namespace Design_a_Workflow_Engine
         static void Main(string[] args)
         {
             var customer = new Customer("George", "Greece", "george@besmartbesimple.com");
-            var order = new Order();
-            var mailTo = new EmailToCustomer();
-            var shipOrder = new ShipOrder();
+            var workflow = new Workflow();
+            workflow.Add(new Order());
+            workflow.Add(new EmailToCustomer());
+            workflow.Add(new ShipOrder());
 
-
-            order.Execute(customer);
-            mailTo.Execute(customer);
-            shipOrder.Execute(customer);
+            var workFlowEngine = new WorkflowEngine();
+            workFlowEngine.Run(workflow, customer);
 
 
         }

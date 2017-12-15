@@ -47,6 +47,8 @@ namespace Upcasting_Downcasting
 
             Shape shape2 = new Text();
             Text text2 = (Text)shape;
+            text2.Height = 100;
+            Console.WriteLine(text2.Height);
 
             
 
