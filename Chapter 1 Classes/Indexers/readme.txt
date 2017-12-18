@@ -1,5 +1,6 @@
 1. Indexers
 A way to access elements in a class that represents a list of values.
+An indexer allows an object to be indexed such as an array.
 
 - Examples
 var array = new int[5];
@@ -32,13 +33,9 @@ public class HttpCookie
 
 	public string this[string key]
 	{
-	
 		get{}
 		set{}
 	
-	
 	}
-
-
-
+	
 }
