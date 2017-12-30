@@ -107,7 +107,8 @@ var person = new person();
 person.Introduce();
 
 
-- Static : directly accessible from the class directly
+- Static : directly accessible from the class 
+//Also a great explanation can be found here :https://unity3d.com/learn/tutorials/topics/scripting/statics
 //Console is a class and WriteLine is a static method
 Console.WriteLine();
 
