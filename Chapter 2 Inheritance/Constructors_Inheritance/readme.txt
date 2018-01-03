@@ -38,8 +38,20 @@ public class Car:Vehicle
 }
 
 2. The base keyword
+
+The base keyword is used to access members of the base class from within a derived class:
+
+    Call a method on the base class that has been overridden by another method.
+
+    Specify which base-class constructor should be called when creating instances of the derived class.
+
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/base
+
 To fix the above so we can access the private field that's used in the constructor of Car class we use 
 the base keyword.
+
+
+
 
 public class Car:Vehicle
 {
